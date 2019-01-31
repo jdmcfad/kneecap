@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
     "plotly.js-dist": "^1.44.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "babel-core": "^6.26.3"
   }
 }
