@@ -1,0 +1,20 @@
+[{
+	"type": "sankey",
+	"orientation": "h",
+	"node": {
+	  "pad": 15,
+	  "thickness": 30,
+	  "line": {
+		"color": "black",
+		"width": 0.5
+	  },
+	 "label": ["Income 1", "Income 2", "Account 1", "Account 2", "Credit Card", "Mortgage"],
+	 "color": ["blue", "blue", "green", "green", "red", "red"]
+		},
+  
+	"link": {
+	  "source": [0,1,0,2,3,3],
+	  "target": [2,3,3,4,4,5],
+	  "value":  [8,4,2,8,4,2]
+	}
+}]
